@@ -1,0 +1,902 @@
+[
+  {
+    "question_id": "Q001",
+    "question": "我因為重病趕不上註冊時間，可以申請延後註冊嗎？最晚能延多久？",
+    "expected_answer": "如因重病、懷孕、分娩、撫育三歲以下子女或特殊事故而檢具證明文件，於事前請假核准者，得延期註冊，至多以二星期為限。",
+    "expected_keywords": ["延期註冊", "事前請假核准", "二星期"],
+    "expected_provision_ids": [53],
+    "document_name": "朝陽科技大學學則",
+    "article_no": "第十三條"
+  },
+  {
+    "question_id": "Q002",
+    "question": "我因為生小孩或照顧小孩想休學，這段休學時間會怎麼計算？",
+    "expected_answer": "因懷孕、分娩、撫育三歲以下子女，得檢具證明文件提出申請休學而不列計休學年限。",
+    "expected_keywords": ["懷孕", "申請休學", "不列計休學年限"],
+    "expected_provision_ids": [83],
+    "document_name": "朝陽科技大學學則",
+    "article_no": "第四十二條"
+  },
+  {
+    "question_id": "Q003",
+    "question": "朝陽的名譽博士通常會頒給什麼樣的人？",
+    "expected_answer": "本國或外國人士具有下列條件之一者，得為本校名譽博士學位候選人：\n一、 在學術或專業上有特殊成就或貢獻，有益人類福祉者。\n二、 對文化、學術交流或世界和平有重大貢獻者。\n三、 對國家及社會人群有重大貢獻者。",
+    "expected_keywords": ["名譽博士學位候選人", "學術或專業", "文化、學術交流", "國家及社會人群"],
+    "expected_provision_ids": [115],
+    "document_name": "朝陽科技大學名譽博士學位頒授辦法",
+    "article_no": "第二條"
+  },
+  {
+    "question_id": "Q004",
+    "question": "我是延修生，延修這學期還會有成績排名嗎？",
+    "expected_answer": "延修生延修學（年）期不作延修學（年）期成績排名。",
+    "expected_keywords": ["延修生", "延修學（年）期", "不作", "成績排名"],
+    "expected_provision_ids": [128],
+    "document_name": "朝陽科技大學學生成績排名規則",
+    "article_no": "一、"
+  },
+  {
+    "question_id": "Q005",
+    "question": "我是四技生，讀完一年後想轉系，會從新系的幾年級開始讀？",
+    "expected_answer": "四年制修業滿二學期者，得轉各學系二年級第一學期肄業。",
+    "expected_keywords": ["四年制", "滿二學期", "二年級第一學期", "轉系"],
+    "expected_provision_ids": [139],
+    "document_name": "朝陽科技大學學生轉系、所申請辦法",
+    "article_no": "第三條"
+  },
+  {
+    "question_id": "Q006",
+    "question": "我想出國進修，通常最久可以去多久？",
+    "expected_answer": "依本辦法第二條第(一)至(五)款規定進修者，除修習雙聯學制者得2年以上外，其餘進修期限以1年為限，但無兵役義務之博士班研究生，得再延長6個月，並以1次為限。",
+    "expected_keywords": ["進修期限", "1年", "延長6個月", "1次"],
+    "expected_provision_ids": [154],
+    "document_name": "朝陽科技大學學生出國或赴大陸地區期間有關學業及學籍處理辦法",
+    "article_no": "第四條"
+  },
+  {
+    "question_id": "Q007",
+    "question": "我大學時拿到碩士預修資格，畢業後多久內要考上本校研究所？",
+    "expected_answer": "取得修習碩士班課程資格者（以下簡稱碩士班預修生），應於修業期限屆滿（含）前取得學士學位，並須於大學應屆畢業後4年內考取本校研究所碩士班。",
+    "expected_keywords": ["碩士班預修生", "學士學位", "畢業後4年內", "本校研究所碩士班"],
+    "expected_provision_ids": [164],
+    "document_name": "朝陽科技大學學士班學生修習碩士班課程甄選作業辦法",
+    "article_no": "第三條"
+  },
+  {
+    "question_id": "Q008",
+    "question": "碩士口試幾分算通過？成績是怎麼計算的？",
+    "expected_answer": "學位考試成績，以七十分為及格，一百分為滿分，並以出席委員評定分數平均決定之，但有二分之一以上委員評定不及格者，以不及格論，評定以一次為限。",
+    "expected_keywords": ["七十分為及格", "一百分為滿分", "出席委員", "二分之一以上"],
+    "expected_provision_ids": [178],
+    "document_name": "朝陽科技大學碩士學位考試辦法",
+    "article_no": "第十一條"
+  },
+  {
+    "question_id": "Q009",
+    "question": "我是四技大一新生，以前修過的課可以抵多少學分？",
+    "expected_answer": "一年級新生抵免不得超過45學分。",
+    "expected_keywords": ["一年級新生", "抵免", "45學分"],
+    "expected_provision_ids": [187],
+    "document_name": "朝陽科技大學學生抵免學分辦法",
+    "article_no": "第四條"
+  },
+  {
+    "question_id": "Q010",
+    "question": "我的雙主修一直修不完，可以放棄雙主修、只用主系畢業嗎？",
+    "expected_answer": "如願放棄雙主修資格者，主系准予畢業，但畢業後不得重返補修不足雙主修學位學分。",
+    "expected_keywords": ["放棄雙主修資格", "主系准予畢業", "畢業後不得", "重返補修"],
+    "expected_provision_ids": [212],
+    "document_name": "朝陽科技大學學生修讀雙主修實施辦法",
+    "article_no": "第十三條"
+  },
+  {
+    "question_id": "Q011",
+    "question": "我想申請學行優良獎，需要符合哪些條件？",
+    "expected_answer": "操行成績80分以上，且未受記過以上之處分。",
+    "expected_keywords": ["操行成績", "80分以上", "未受記過以上"],
+    "expected_provision_ids": [219],
+    "document_name": "朝陽科技大學學生學行優良獎勵要點",
+    "article_no": "二、"
+  },
+  {
+    "question_id": "Q012",
+    "question": "我想加修輔系，要怎麼申請？",
+    "expected_answer": "本校學生申請選修輔系，應於每一學期規定之申請期限內，持在校歷年成績單與申請書先向原肄業主系提出申請，經審查認其確具選讀輔系能力者，送請所選輔系系主任同意後，再送教務處註冊組彙送教務長核准。",
+    "expected_keywords": ["歷年成績單", "申請書", "輔系系主任", "教務長核准"],
+    "expected_provision_ids": [226],
+    "document_name": "朝陽科技大學學生修讀輔系實施辦法",
+    "article_no": "第四條"
+  },
+  {
+    "question_id": "Q013",
+    "question": "主系已經修完，但學分學程還沒修完，我可以先畢業嗎？",
+    "expected_answer": "若已修畢主系應修科目與學分，但未修畢學程科目與學分者，仍可申請畢業，但不得於畢業後再要求補修學程。",
+    "expected_keywords": ["未修畢學程", "仍可申請畢業", "不得於畢業後", "補修學程"],
+    "expected_provision_ids": [244],
+    "document_name": "朝陽科技大學學分學程實施辦法",
+    "article_no": "第七條"
+  },
+  {
+    "question_id": "Q014",
+    "question": "第二學期的成績好像有問題，我要在什麼時候以前詢問？",
+    "expected_answer": "學生學期成績經任課教師送交教務處後，無正當理由不得任意更改，學生若遇有成績疑義時，第1學期成績應於第2學期開學前，第2學期成績應於當年7月31日前，暑修課程成績應於課程結束後2週內向任課教師提出查詢。",
+    "expected_keywords": ["成績疑義", "第2學期成績", "7月31日前", "任課教師"],
+    "expected_provision_ids": [254],
+    "document_name": "朝陽科技大學教師繳交及更正成績辦法",
+    "article_no": "第五條"
+  },
+  {
+    "question_id": "Q015",
+    "question": "博士生要怎麼取得博士學位候選人資格？",
+    "expected_answer": "博士班研究生應嚴予考核經資格考核及格後，始得由該所提出為博士學位候選人。",
+    "expected_keywords": ["博士班研究生", "資格考核及格", "博士學位候選人"],
+    "expected_provision_ids": [263],
+    "document_name": "朝陽科技大學博士學位候選人資格考核實施要點",
+    "article_no": "二、"
+  },
+  {
+    "question_id": "Q016",
+    "question": "博士口試沒有通過，還可以再考嗎？",
+    "expected_answer": "重考以一次為限，再不及格，以退學論處。",
+    "expected_keywords": ["重考", "一次為限", "再不及格", "退學"],
+    "expected_provision_ids": [280],
+    "document_name": "朝陽科技大學博士學位考試辦法",
+    "article_no": "第十一條"
+  },
+  {
+    "question_id": "Q017",
+    "question": "論文被檢舉有學術倫理問題後，學校通常要多久完成調查？",
+    "expected_answer": "審定委員會應於組成後3個月內完成調查報告及作出具體決議，必要時得展延2個月，展延以1次為限。",
+    "expected_keywords": ["3個月內", "調查報告", "展延2個月", "1次為限"],
+    "expected_provision_ids": [333],
+    "document_name": "朝陽科技大學博、碩士學位論文違反學術倫理案件處理要點",
+    "article_no": "六、"
+  },
+  {
+    "question_id": "Q018",
+    "question": "我拿了策略聯盟入學獎學金，如果入學後休學，獎學金要退嗎？",
+    "expected_answer": "經核定已受獎之學生，若於入學學期內因故辦理休學、退學或轉學時，應繳回原領取之獎學金。",
+    "expected_keywords": ["入學學期", "休學、退學或轉學", "繳回", "獎學金"],
+    "expected_provision_ids": [365],
+    "document_name": "朝陽科技大學與各高中職策略聯盟學校學生入學成績優異獎學金實施辦法",
+    "article_no": "第四條"
+  },
+  {
+    "question_id": "Q019",
+    "question": "離島學生有返鄉機票補助嗎？一學期可以申請幾次？",
+    "expected_answer": "每學期並得申請返回離島戶籍所在地來回機票1人次。",
+    "expected_keywords": ["每學期", "離島戶籍所在地", "來回機票", "1人次"],
+    "expected_provision_ids": [374],
+    "document_name": "朝陽科技大學離島學生就讀獎助辦法",
+    "article_no": "第七條"
+  },
+  {
+    "question_id": "Q020",
+    "question": "大學部和研究所的及格分數一樣嗎？各是多少？",
+    "expected_answer": "百分記分法以100為滿分，修讀學士學位以60分為及格，研究生以70分為及格。",
+    "expected_keywords": ["百分記分法", "學士學位", "60分", "研究生", "70分"],
+    "expected_provision_ids": [377],
+    "document_name": "朝陽科技大學學生學業成績考核辦法",
+    "article_no": "第二條"
+  },
+  {
+    "question_id": "Q021",
+    "question": "延修生的學生證到期了，要怎麼辦理展延？一次能延多久？",
+    "expected_answer": "延修之學生於完成註冊程序後，持學生證至教務處註冊組辦理，每次展延以一學期為限。",
+    "expected_keywords": ["延修", "完成註冊", "學生證", "一學期"],
+    "expected_provision_ids": [401],
+    "document_name": "朝陽科技大學學生證管理作業要點",
+    "article_no": "七、"
+  },
+  {
+    "question_id": "Q022",
+    "question": "我服役期間想提前畢業，要在什麼時候提出申請？",
+    "expected_answer": "申請提前畢業者，應於擬畢業學期之期中考後一週內提出申請，經各系初審合格，並經教務處複審通過後，報請核准並授予學士學位證書。",
+    "expected_keywords": ["提前畢業", "期中考後一週內", "系初審", "教務處複審"],
+    "expected_provision_ids": [426],
+    "document_name": "朝陽科技大學學士班學生就學期間服役彈性修業實施辦法",
+    "article_no": "第三條"
+  },
+  {
+    "question_id": "Q023",
+    "question": "研究生入學後，最晚什麼時候要選好指導教授？",
+    "expected_answer": "碩士生最遲應於系（所）入學後第一學年結束前，博士生最遲應於系（所）入學後第二學年結束前，選定學位論文指導教授（以下簡稱指導教授），並持指導教授之書面同意書，向系（所）辦理登記。",
+    "expected_keywords": ["碩士生", "第一學年結束前", "博士生", "第二學年結束前", "指導教授"],
+    "expected_provision_ids": [435],
+    "document_name": "朝陽科技大學論文指導教授與研究生互動準則",
+    "article_no": "第二條"
+  },
+  {
+    "question_id": "Q024",
+    "question": "學校排課一天最多幾節？同一門課最多能連上幾節？",
+    "expected_answer": "每日課程安排不得超過10節，同一門課不得連續授課超過4節，以及不得以採短期密集完成整學期課程之方式授課。",
+    "expected_keywords": ["每日課程", "10節", "同一門課", "連續授課", "4節"],
+    "expected_provision_ids": [456],
+    "document_name": "朝陽科技大學排課準則",
+    "article_no": "第五條"
+  },
+  {
+    "question_id": "Q025",
+    "question": "日間部四技生每學期要修幾學分？大四會不一樣嗎？",
+    "expected_answer": "日間部四年制學生一至三年級16至25學分；四年級9至25學分；二年制學生分別比照四年制之三、四年級辦理。",
+    "expected_keywords": ["日間部四年制", "一至三年級", "16至25學分", "四年級", "9至25學分"],
+    "expected_provision_ids": [471],
+    "document_name": "朝陽科技大學選課準則",
+    "article_no": "第三條"
+  },
+  {
+    "question_id": "Q026",
+    "question": "我想到別間大學修課，一學期可以跨校選幾學分？",
+    "expected_answer": "本校大學部學生每學期選修他校課程，以不超過該學期限修學分數上限三分之一為原則，其成績應與本校該學期所修學分合併累計；在本校與他校修習學分總數仍應受每學期限修學分數之限制。",
+    "expected_keywords": ["大學部學生", "他校課程", "上限三分之一", "合併累計"],
+    "expected_provision_ids": [483],
+    "document_name": "朝陽科技大學校際選課實施要點",
+    "article_no": "三、"
+  },
+  {
+    "question_id": "Q027",
+    "question": "專任老師每週要安排多少課後輔導時間？",
+    "expected_answer": "各專任教師應訂定每週課後輔導時間至少4小時，張貼於研究室門口，以便學生聯繫、請益；至於兼任教師則應提供連絡方式。",
+    "expected_keywords": ["專任教師", "每週", "課後輔導", "至少4小時"],
+    "expected_provision_ids": [492],
+    "document_name": "朝陽科技大學教學準則",
+    "article_no": "第三條"
+  },
+  {
+    "question_id": "Q028",
+    "question": "暑修沒有及格，還可以補考嗎？",
+    "expected_answer": "成績不及格者，不得補考。",
+    "expected_keywords": ["暑期", "成績不及格", "不得補考"],
+    "expected_provision_ids": [513],
+    "document_name": "朝陽科技大學暑期開班授課辦理要點",
+    "article_no": "十二、"
+  },
+  {
+    "question_id": "Q029",
+    "question": "微型課程的成績和課程時數是怎麼計算的？",
+    "expected_answer": "學習成績採「通過」制。微型課程於該學期結束後1週內，由各開課單位邀集相關教師至微型課程系統進行審核，通過者即可獲得該門課之時數。",
+    "expected_keywords": ["通過", "學期結束後1週內", "審核", "獲得該門課之時數"],
+    "expected_provision_ids": [529],
+    "document_name": "朝陽科技大學微型課程實施要點",
+    "article_no": "五、"
+  },
+  {
+    "question_id": "Q030",
+    "question": "老師想開全英語授課的課程，要怎麼申請？",
+    "expected_answer": "採用「英語授課」之教師應填具申請表並附中、英文教學大綱及英文教學計畫書，向所屬教學單位提出申請，經該單位課程委員會審查，並經開課單位主管及院長核章後，於每學期辦理開課作業前，將申請表送教務處申請審核。",
+    "expected_keywords": ["英語授課", "中、英文教學大綱", "英文教學計畫書", "課程委員會", "教務處"],
+    "expected_provision_ids": [534],
+    "document_name": "朝陽科技大學英語授課辦法",
+    "article_no": "第四條"
+  },
+  {
+    "question_id": "Q031",
+    "question": "不及格的課可以用非同步線上課重修嗎？每學期有門數限制嗎？",
+    "expected_answer": "本辦法適用對象限本校大學部曾經修習同課名不及格者始得修習。本類課程不列入修課學分上限計算，大一至大三學生每學期至多修習一門，大四學生每學期至多修習二門為原則。",
+    "expected_keywords": ["大學部", "同課名不及格", "大一至大三", "一門", "大四", "二門"],
+    "expected_provision_ids": [556],
+    "document_name": "朝陽科技大學利用非同步遠距教學重修學分實施辦法",
+    "article_no": "第四條"
+  },
+  {
+    "question_id": "Q032",
+    "question": "高中生可以先到朝陽修課嗎？每學期能修多少？",
+    "expected_answer": "高中生預修本校課程，每學期預修總學分以不超過6學分為原則。上課方式以隨班附讀方式進行，每班以不超過5人為原則，惟本校也得經雙方協議採開設專班、遠距教學或其他方式辦理。",
+    "expected_keywords": ["高中生預修", "6學分", "隨班附讀", "5人"],
+    "expected_provision_ids": [581],
+    "document_name": "朝陽科技大學辦理高級中等學校學生預修課程實施要點",
+    "article_no": "三、"
+  },
+  {
+    "question_id": "Q033",
+    "question": "考試遲到還能進場嗎？開考後可以提早交卷離開嗎？",
+    "expected_answer": "應考學生應按時到達試場，如遲到逾二十分鐘以上者，應經主試人員許可始准入場，否則以缺考論。考試開始四十分鐘內，不得出場。",
+    "expected_keywords": ["遲到逾二十分鐘", "主試人員許可", "缺考", "四十分鐘內", "不得出場"],
+    "expected_provision_ids": [593],
+    "document_name": "朝陽科技大學考試規則",
+    "article_no": "第三條"
+  },
+  {
+    "question_id": "Q034",
+    "question": "學校想請業界專家協同教學，對方需要具備哪些資格或經驗？",
+    "expected_answer": "國內、外專科以上學校畢業，並具有五年以上與任教領域專業相關實務經驗之專業工作年資，表現優異者。",
+    "expected_keywords": ["專科以上學校畢業", "五年以上", "任教領域", "實務經驗"],
+    "expected_provision_ids": [604],
+    "document_name": "朝陽科技大學遴聘業界專家協同教學實施辦法",
+    "article_no": "第三條"
+  },
+  {
+    "question_id": "Q035",
+    "question": "研究所考試有一科零分或缺考，就算總分夠還能錄取嗎？",
+    "expected_answer": "考生成績若有1科0分或缺考者，總分雖達最低錄取標準亦不予以錄取。",
+    "expected_keywords": ["1科0分", "缺考", "最低錄取標準", "不予以錄取"],
+    "expected_provision_ids": [628],
+    "document_name": "朝陽科技大學碩、博士班招生規定",
+    "article_no": "第十條"
+  },
+  {
+    "question_id": "Q036",
+    "question": "三專畢業可以用同等學力報考碩士班嗎？有年限限制嗎？",
+    "expected_answer": "取得專科學校畢業證書後，其為三年制者經離校二年以上；二年制或五年制者經離校三年以上；取得專科進修（補習）學校資格證明書、專科進修學校畢業證書或專科學校畢業程度學力鑑定通過證書者，比照二年制專科學校辦理。",
+    "expected_keywords": ["專科學校畢業證書", "三年制", "離校二年以上", "同等學力"],
+    "expected_provision_ids": [655],
+    "document_name": "朝陽科技大學入學碩士班同等學力認定標準實施要點",
+    "article_no": "三、"
+  },
+  {
+    "question_id": "Q037",
+    "question": "獲選教學優良教師後，還需要配合哪些教學分享活動？",
+    "expected_answer": "獲獎教師應參與教學發展相關之觀摩與研討活動，並應於公布獲獎名單後於當學年度下學期內，撰寫教學心得分享文章1篇、開放上課教學觀摩（至少1堂課），且於次學年度申請或執行教學相關計畫，以提升本校教學品質。",
+    "expected_keywords": ["獲獎教師", "教學心得分享文章1篇", "教學觀摩", "至少1堂課", "次學年度"],
+    "expected_provision_ids": [669],
+    "document_name": "朝陽科技大學獎勵教學優良教師實施辦法",
+    "article_no": "第九條"
+  },
+  {
+    "question_id": "Q038",
+    "question": "教材還沒完成，可以申請教材獎助嗎？",
+    "expected_answer": "發展中之未完成教材，不在獎助範圍之內。",
+    "expected_keywords": ["發展中", "未完成教材", "不在獎助範圍"],
+    "expected_provision_ids": [673],
+    "document_name": "朝陽科技大學獎助教師編製教材及教學參考資料審查辦法",
+    "article_no": "第三條"
+  },
+  {
+    "question_id": "Q039",
+    "question": "遠距課程如果不符合規定，學校會怎麼處理？",
+    "expected_answer": "教師開授遠距教學課程，若於學期間違反相關規定，應限期改善。若期限內仍未改善得限制或禁止其開設遠距教學課程。",
+    "expected_keywords": ["遠距教學", "限期改善", "仍未改善", "限制或禁止"],
+    "expected_provision_ids": [697],
+    "document_name": "朝陽科技大學遠距教學實施辦法",
+    "article_no": "第十五條"
+  },
+  {
+    "question_id": "Q040",
+    "question": "研究生用期刊論文申請獎學金，有件數或金額上限嗎？",
+    "expected_answer": "獎學金：本校「研究生」發表學術論文於知名期刊者，得以該論文申請，每名以新臺幣10,000元為上限；各系（所）各學制申請名額以3名為原則，每名學生每學期限申請乙案。",
+    "expected_keywords": ["研究生", "知名期刊", "10,000元", "每學期限申請乙案"],
+    "expected_provision_ids": [703],
+    "document_name": "朝陽科技大學研究生獎學金暨教學助理助學金實施辦法",
+    "article_no": "第四條"
+  },
+  {
+    "question_id": "Q041",
+    "question": "哪些學生可以申請教學助理助學金？",
+    "expected_answer": "凡本校博士班一年級、二年級、三年級學生，碩士班一年級、二年級學生及大學部四年級碩士班預修生為原則（不含在職生、在職專班學生、陸生、延修生及休學生），對擔任教學助理有興趣且協助教學課程相關事務之研究生。",
+    "expected_keywords": ["博士班", "碩士班", "碩士班預修生", "不含在職生", "延修生及休學生"],
+    "expected_provision_ids": [710],
+    "document_name": "朝陽科技大學教學助理助學金實施細則",
+    "article_no": "第二條"
+  },
+  {
+    "question_id": "Q042",
+    "question": "老師自製教具可以申請哪些獎助？材料費也能申請嗎？",
+    "expected_answer": "第1名獎勵金新臺幣20,000元；第2名獎勵金新臺幣18,000元；第3名獎勵金新臺幣15,000元；佳作獎勵金為扣除前3名之獎勵金後再行分配為原則。並依經費狀況排定順序獎助，製作教學教具所需之材料費亦不在本辦法獎助之列。",
+    "expected_keywords": ["第1名", "20,000元", "材料費", "不在本辦法獎助"],
+    "expected_provision_ids": [723],
+    "document_name": "朝陽科技大學獎助教師製作教具審查辦法",
+    "article_no": "第三條"
+  },
+  {
+    "question_id": "Q043",
+    "question": "教學評量沒有通過，接下來要怎麼處理？",
+    "expected_answer": "本辦法採用本校教師教學評量結果為依據，凡教師教學評量結果為不通過者，均應接受教學輔導。",
+    "expected_keywords": ["教學評量", "不通過", "均應接受", "教學輔導"],
+    "expected_provision_ids": [737],
+    "document_name": "朝陽科技大學教師教學評量輔導與追蹤辦法",
+    "article_no": "第二條"
+  },
+  {
+    "question_id": "Q044",
+    "question": "老師拿到專業證照後可以申請獎助嗎？每年有申請張數限制嗎？",
+    "expected_answer": "同一張證照以獎助1次為限，且須具有證照字號。\n每位教師每年最多可申請1張C級專業證照之獎助。",
+    "expected_keywords": ["同一張證照", "1次", "每位教師每年", "1張C級"],
+    "expected_provision_ids": [746],
+    "document_name": "朝陽科技大學獎助教師取得專業證照辦法",
+    "article_no": "第五條"
+  },
+  {
+    "question_id": "Q045",
+    "question": "數位課程的評鑑資料需要保存多久？",
+    "expected_answer": "開設單位應定期評鑑所開設數位學習課程及教學成效，並做成評鑑報告，並於課程結束後，應保存5年，以供日後查考。",
+    "expected_keywords": ["數位學習課程", "評鑑報告", "課程結束後", "保存5年"],
+    "expected_provision_ids": [758],
+    "document_name": "朝陽科技大學獎助數位學習課程認證作業要點",
+    "article_no": "九、"
+  },
+  {
+    "question_id": "Q046",
+    "question": "遠距課程結束後還要交哪些資料？有繳交期限嗎？",
+    "expected_answer": "課程結束1個月內須繳交「數位課程自我檢核表」，並由教務處創新教學中心聘請委員進行課程審查，其審查結果將作為遠距教學課程之獎勵依據及日後課程再次申請之參考。",
+    "expected_keywords": ["課程結束1個月內", "數位課程自我檢核表", "課程審查", "遠距教學"],
+    "expected_provision_ids": [765],
+    "document_name": "朝陽科技大學數位學習課程獎補助要點",
+    "article_no": "六、"
+  },
+  {
+    "question_id": "Q047",
+    "question": "校園性別事件還在調查時，學生可以辦畢業嗎？",
+    "expected_answer": "學生在學期間涉及校園性別事件，在調查階段不得畢業；學生畢業後對其在學期間之行為經調查屬實後，為退學處分者，應註銷畢業資格。",
+    "expected_keywords": ["校園性別事件", "調查階段", "不得畢業", "註銷畢業資格"],
+    "expected_provision_ids": [788],
+    "document_name": "朝陽科技大學學生獎懲規定",
+    "article_no": "第十五條"
+  },
+  {
+    "question_id": "Q048",
+    "question": "我想請心理調適假，需要附證明嗎？一學期能請幾天？",
+    "expected_answer": "學生因心理不適或精神狀況不佳，導致上課有困難時，無須檢附證明，得申請心理調適假，每學期以3日為限，每次至多1日。",
+    "expected_keywords": ["心理調適假", "無須檢附證明", "每學期以3日為限", "每次至多1日"],
+    "expected_provision_ids": [794],
+    "document_name": "朝陽科技大學學生請假規則",
+    "article_no": "第三條"
+  },
+  {
+    "question_id": "Q049",
+    "question": "操行成績怎麼計算？幾分算及格？",
+    "expected_answer": "學生操行成績之評定以82分為基本分60分以上為及格，再加減獎懲、勤惰分數，核計實得總分。",
+    "expected_keywords": ["操行成績", "82分", "基本分", "60分以上", "及格"],
+    "expected_provision_ids": [803],
+    "document_name": "朝陽科技大學操行成績考核辦法",
+    "article_no": "第二條"
+  },
+  {
+    "question_id": "Q050",
+    "question": "我被記申誡或小過，可以申請銷過嗎？要怎麼做？",
+    "expected_answer": "折抵標準：「校園服務」以8小時折抵一次申誡，20小時折抵一次小過。",
+    "expected_keywords": ["校園服務", "8小時", "申誡", "20小時", "小過"],
+    "expected_provision_ids": [811],
+    "document_name": "朝陽科技大學學生彌過自新實施要點",
+    "article_no": "四、"
+  },
+  {
+    "question_id": "Q051",
+    "question": "學生要怎麼申請校內停車證？多久要重新申請一次？",
+    "expected_answer": "學生及車輛須證照齊全，始具有申請停車證資格。停車證每學年申請乙次，學生事務處生活輔導組於前一學年度下學期公布辦理及繳費作業時限；新生及轉、復學生則於註冊後辦理申請，日期另訂。",
+    "expected_keywords": ["證照齊全", "停車證資格", "每學年", "申請乙次"],
+    "expected_provision_ids": [827],
+    "document_name": "朝陽科技大學學生車輛管理辦法",
+    "article_no": "第二條"
+  },
+  {
+    "question_id": "Q052",
+    "question": "我在學校撿到東西或錢，交給學校後會怎麼處理？",
+    "expected_answer": "教職員生拾獲物金，得交至學生事務處生活輔導組，經點交、登記後，再予以公告，公告期限自拾獲日起6個月。",
+    "expected_keywords": ["拾獲物金", "點交、登記", "公告期限", "6個月"],
+    "expected_provision_ids": [844],
+    "document_name": "朝陽科技大學拾獲物金處理辦法",
+    "article_no": "第三條"
+  },
+  {
+    "question_id": "Q053",
+    "question": "領生活助學金需要做多少服務學習？有時數上限嗎？",
+    "expected_answer": "獲得補助生活助學金學生應完成「生活服務學習」時數，上限為每週服務8小時，每月30小時，如因課業等因素無法完成，得擇期補做。",
+    "expected_keywords": ["生活助學金", "生活服務學習", "每週服務8小時", "每月30小時"],
+    "expected_provision_ids": [851],
+    "document_name": "朝陽科技大學弱勢學生助學實施要點",
+    "article_no": "四、"
+  },
+  {
+    "question_id": "Q054",
+    "question": "經濟或文化不利學生的輔導補助，哪些人可以申請？",
+    "expected_answer": "下\n列身分者，不得申請本辦法所列之輔導項目：\n一、 延修生(身心障礙學生除外)。\n二、 申請後辦理休學、退學或轉學至他校者。",
+    "expected_keywords": ["不得申請", "延修生", "身心障礙學生除外", "休學、退學或轉學"],
+    "expected_provision_ids": [856],
+    "document_name": "朝陽科技大學協助經濟與文化不利學生完善就學辦法",
+    "article_no": "第二條"
+  },
+  {
+    "question_id": "Q055",
+    "question": "宿舍安全檢查會錄影嗎？錄影資料會保存多久？",
+    "expected_answer": "前項之錄影資料，學校應保存至少三年；有相關之申訴、再申訴、行政爭訟及其他法律救濟程序進行時，學校應保存至該等救濟程序確定後至少六個月。",
+    "expected_keywords": ["宿舍安全檢查", "錄影資料", "至少三年", "救濟程序", "至少六個月"],
+    "expected_provision_ids": [877],
+    "document_name": "朝陽科技大學教師輔導與管教學生辦法",
+    "article_no": "第十六條"
+  },
+  {
+    "question_id": "Q056",
+    "question": "社團被學校解散後，還可以再成立類似的社團嗎？",
+    "expected_answer": "社團解散後，1年內不得成立類似社團。",
+    "expected_keywords": ["社團解散", "1年內", "不得成立", "類似社團"],
+    "expected_provision_ids": [956],
+    "document_name": "朝陽科技大學學生社團輔導辦法",
+    "article_no": "第三十五條"
+  },
+  {
+    "question_id": "Q057",
+    "question": "自強助學金要在什麼時候申請？逾期還能補件嗎？",
+    "expected_answer": "朝陽科技大學自強助學金（以下簡稱本助學金）每學年申辦1次，申請期限為每學年第2學期開學之日起1個月內，向各系提出申請，逾期不予受理。",
+    "expected_keywords": ["自強助學金", "每學年申辦1次", "第2學期開學", "1個月內", "逾期不予受理"],
+    "expected_provision_ids": [984],
+    "document_name": "朝陽科技大學自強助學金設置辦法",
+    "article_no": "第二條"
+  },
+  {
+    "question_id": "Q058",
+    "question": "公共服務績優獎學金可以連續申請嗎？",
+    "expected_answer": "同一服務職務，不得連續獲獎。",
+    "expected_keywords": ["同一服務職務", "不得", "連續獲獎"],
+    "expected_provision_ids": [1003],
+    "document_name": "朝陽科技大學學生公共服務績優獎學金設置要點",
+    "article_no": "三、"
+  },
+  {
+    "question_id": "Q059",
+    "question": "我不服學校的處分，想提校內申訴，申訴期限是多久？",
+    "expected_answer": "申訴人對於本校之原措施不服者，應於收到或接受原措施之次日起 15 日內，以書面提列具體事實並檢附相關資料向本會提起申訴。",
+    "expected_keywords": ["原措施不服", "次日起 15 日內", "書面", "提起申訴"],
+    "expected_provision_ids": [1019],
+    "document_name": "朝陽科技大學學生申訴評議委員會組織及學生申訴案處理原則",
+    "article_no": "六、"
+  },
+  {
+    "question_id": "Q060",
+    "question": "家裡突然發生事故，可以申請急難扶助嗎？要在多久內提出？",
+    "expected_answer": "申請人應於學生家庭發生事故後半年內提出申請。同一原因事件以扶助1次為限。",
+    "expected_keywords": ["家庭發生事故", "半年內", "同一原因事件", "扶助1次"],
+    "expected_provision_ids": [1050],
+    "document_name": "朝陽科技大學學生急難扶助實施辦法",
+    "article_no": "第六條"
+  },
+  {
+    "question_id": "Q061",
+    "question": "校內緊急救護志工需要具備哪些急救資格？",
+    "expected_answer": "衛保組成立緊急救護志工，其成員應完成紅十字會急救員16小時訓練、勞工16小時急救人員安全衛生教育訓練或緊急救護技術員訓練，並按各項規定複訓。",
+    "expected_keywords": ["緊急救護志工", "紅十字會急救員", "16小時", "緊急救護技術員", "複訓"],
+    "expected_provision_ids": [1077],
+    "document_name": "朝陽科技大學緊急傷病處理準則",
+    "article_no": "第九條"
+  },
+  {
+    "question_id": "Q062",
+    "question": "學生的重大傷病或傳染病資料，學校會保存多久？",
+    "expected_answer": "重大傷病及法定傳染病護理紀錄應保存15年。",
+    "expected_keywords": ["重大傷病", "法定傳染病", "護理紀錄", "保存15年"],
+    "expected_provision_ids": [1090],
+    "document_name": "朝陽科技大學學生健康檢查及疾病防治要點",
+    "article_no": "九、"
+  },
+  {
+    "question_id": "Q063",
+    "question": "朝陽校園裡可以抽電子煙嗎？",
+    "expected_answer": "本校室內、外場域全面禁止吸菸(含電子煙、加味菸、晶球菸等類菸品)，並應於所有入口處及其他適當地點，設置明顯禁菸標示。",
+    "expected_keywords": ["室內、外場域", "全面禁止吸菸", "電子煙", "禁菸標示"],
+    "expected_provision_ids": [1095],
+    "document_name": "朝陽科技大學菸害防制管理辦法",
+    "article_no": "第三條"
+  },
+  {
+    "question_id": "Q064",
+    "question": "我在別間大學修過勞作教育，可以拿來抵朝陽的學分嗎？",
+    "expected_answer": "曾於國內、外大專校院就讀，並修習勞作教育或同類型課程及格者，且總施作時數不得少於12小時，得申請折抵1學分。",
+    "expected_keywords": ["勞作教育", "總施作時數", "12小時", "折抵1學分"],
+    "expected_provision_ids": [1107],
+    "document_name": "朝陽科技大學勞作教育實施辦法",
+    "article_no": "第四條"
+  },
+  {
+    "question_id": "Q065",
+    "question": "我上學期有課不及格，還可以申請校內工讀嗎？",
+    "expected_answer": "前學期學業成績有兩科（含）以上不及格者，原則上不予核准工讀。",
+    "expected_keywords": ["前學期", "兩科（含）以上", "不及格", "不予核准工讀"],
+    "expected_provision_ids": [1121],
+    "document_name": "朝陽科技大學學生工讀助學金作業要點",
+    "article_no": "五、"
+  },
+  {
+    "question_id": "Q066",
+    "question": "哪些學生申請宿舍時可以優先分到床位？",
+    "expected_answer": "保障床位申請條件資格如下：\n(一) 依學生發展暨特殊教育資源中心陳報身心障礙學生經核准者。\n(二) 低收入戶及中低收入戶學生。\n(三) 擔任住宿生生活自治會幹部，或任滿兩屆幹部，表現優異經核准者。\n(四) 四技新生且隻身在臺之離島生。\n(五) 現役軍人子女。\n(六) 僑生、外籍生及交換學生。\n(七) 其他特殊原因，經專案（簽）辦理住宿之學生。",
+    "expected_keywords": ["保障床位", "身心障礙學生", "低收入戶", "離島生", "僑生、外籍生及交換學生"],
+    "expected_provision_ids": [1140],
+    "document_name": "朝陽科技大學學生宿舍管理辦法",
+    "article_no": "第五條"
+  },
+  {
+    "question_id": "Q067",
+    "question": "產學國際專班學生想住校外，要怎麼申請？",
+    "expected_answer": "專班生校外住宿由學生自行提出申請，未於期限內申請校外住宿者視同續住，並應依規定繳交住宿費。",
+    "expected_keywords": ["專班生", "未於期限內", "校外住宿", "視同續住", "住宿費"],
+    "expected_provision_ids": [1164],
+    "document_name": "朝陽科技大學產學合作國際專班學生申請校外住宿作業要點",
+    "article_no": "二、"
+  },
+  {
+    "question_id": "Q068",
+    "question": "校外活動遇到颱風或其他天災時，活動要怎麼處理？",
+    "expected_answer": "遇氣象局發布颱風、豪大雨或土石流等重大天災警報時或強烈地震後，已申請獲准但未出發之活動，審核單位得因安全考量，隨時撤銷之；已出發或正進行之活動， 應從重認定可能之影響或危害，立即暫停或提前結束活動，以確保安全。",
+    "expected_keywords": ["重大天災警報", "未出發", "隨時撤銷", "已出發", "立即暫停或提前結束"],
+    "expected_provision_ids": [1188],
+    "document_name": "朝陽科技大學學生校外活動安全注意事項",
+    "article_no": "十五、"
+  },
+  {
+    "question_id": "Q069",
+    "question": "學生團體保險的保費要怎麼繳？可以分期嗎？",
+    "expected_answer": "被保險人應繳之保險費，本校申請補助之部分依教育部規定，其餘由被保險人每年分二次繳納，於每學期註冊時各繳納二分之一。",
+    "expected_keywords": ["保險費", "每年分二次", "每學期註冊", "二分之一"],
+    "expected_provision_ids": [1193],
+    "document_name": "朝陽科技大學辦理學生團體保險作業要點",
+    "article_no": "四、"
+  },
+  {
+    "question_id": "Q070",
+    "question": "社團要借學校的運動場地，該怎麼申請？",
+    "expected_answer": "本校各單位（含學生社團）需使用運動場地設施時，應由各單位持核准活動證明或企劃書，並填寫「運動場地暨體育活動申請表」向體育室辦理借用登記，經核可後始得為之。",
+    "expected_keywords": ["學生社團", "活動證明或企劃書", "運動場地暨體育活動申請表", "體育室", "核可"],
+    "expected_provision_ids": [1204],
+    "document_name": "朝陽科技大學運動場地管理辦法",
+    "article_no": "第七條"
+  },
+  {
+    "question_id": "Q071",
+    "question": "社團要借運動器材，應該提前多久申請？",
+    "expected_answer": "本校學生社團借用運動器材，社團負責人應於活動三日前，填寫「運動場地暨體育活動申請表」，向體育室申請。",
+    "expected_keywords": ["學生社團", "運動器材", "活動三日前", "體育室申請"],
+    "expected_provision_ids": [1212],
+    "document_name": "朝陽科技大學運動器材管理辦法",
+    "article_no": "第五條"
+  },
+  {
+    "question_id": "Q072",
+    "question": "學校公務車可以由一般人員自己開嗎？需要什麼資格？",
+    "expected_answer": "公務車應由本校駕駛駕車，非特殊情況不得自行駕駛，如為自行駕駛，須有合格證照並於申請單「需求狀況」欄註明原因，經總務長核可後使用；使用前後與事務組業務承辦人共同檢查車輛，如期停回定點，繳還鑰匙。",
+    "expected_keywords": ["自行駕駛", "合格證照", "註明原因", "總務長核可", "共同檢查車輛"],
+    "expected_provision_ids": [1223],
+    "document_name": "朝陽科技大學公務車輛管理要點",
+    "article_no": "四、"
+  },
+  {
+    "question_id": "Q073",
+    "question": "我的校區停車證可以借給朋友使用嗎？",
+    "expected_answer": "擅借他人使用停車證者，一經發現即予以收回。當年度內不得再申請。",
+    "expected_keywords": ["擅借", "停車證", "收回", "當年度內不得再申請"],
+    "expected_provision_ids": [1235],
+    "document_name": "朝陽科技大學校區車輛管制辦法",
+    "article_no": "第九條"
+  },
+  {
+    "question_id": "Q074",
+    "question": "借用場地後，鑰匙最晚什麼時候要歸還？",
+    "expected_answer": "各場地借用單位或社團，應於活動結束當天（夜間活動者於次日上午）歸還場所鑰匙；如12小時以內未歸還者，停止該借用單位或社團借用權3個月，累犯者視情節停權6個月。",
+    "expected_keywords": ["場所鑰匙", "12小時", "借用權3個月", "累犯", "停權6個月"],
+    "expected_provision_ids": [1274],
+    "document_name": "朝陽科技大學場所借用要點",
+    "article_no": "九、"
+  },
+  {
+    "question_id": "Q075",
+    "question": "老師可以用學校設備接私人研究案或顧問案嗎？",
+    "expected_answer": "凡本校教師利用校內設備及人力進行研究或技術服務事宜，應按本辦法規定處理，不得透過私人、事務所或顧問公司等任意接受研究計畫。",
+    "expected_keywords": ["校內設備及人力", "研究或技術服務", "不得", "顧問公司", "研究計畫"],
+    "expected_provision_ids": [1288],
+    "document_name": "朝陽科技大學產學合作實施辦法",
+    "article_no": "第十三條"
+  },
+  {
+    "question_id": "Q076",
+    "question": "研究生想申請國際研討會補助，需要符合哪些條件？",
+    "expected_answer": "申請資格：本校碩、博士班研究生或修讀學、碩士五年一貫學程預研生（不含在職專班研究生、休學生），以本校名義出席最近5年內論文集曾被收錄於Scopus資料庫之國際學術會議發表論文。",
+    "expected_keywords": ["碩、博士班研究生", "五年一貫學程預研生", "不含在職專班", "最近5年", "Scopus"],
+    "expected_provision_ids": [1304],
+    "document_name": "朝陽科技大學補助研究生出席國際學術會議實施要點",
+    "article_no": "三、"
+  },
+  {
+    "question_id": "Q077",
+    "question": "用學校影印服務印出的資料，可以拿去出版或販售嗎？",
+    "expected_answer": "影印之資料僅供學術研究，不得擅自重製、出版、銷售，導致侵害著作人權益。",
+    "expected_keywords": ["影印之資料", "僅供學術研究", "不得擅自重製", "出版、銷售", "著作人權益"],
+    "expected_provision_ids": [1332],
+    "document_name": "朝陽科技大學影印服務規則",
+    "article_no": "第三條"
+  },
+  {
+    "question_id": "Q078",
+    "question": "電子論文可以申請延後公開嗎？最久能延多久？",
+    "expected_answer": "電子版論文繳交時，若延後公開，其最長年限不得超過5年。",
+    "expected_keywords": ["電子版論文", "延後公開", "最長年限", "5年"],
+    "expected_provision_ids": [1348],
+    "document_name": "朝陽科技大學數位化學位論文蒐集辦法",
+    "article_no": "第四條"
+  },
+  {
+    "question_id": "Q079",
+    "question": "大學生可以自己把畢業專題上傳到學校的機構典藏嗎？",
+    "expected_answer": "大學部學生：無自行上傳資料之權限，若欲上傳畢業專題至本系統，應由各單位聯絡人代為上傳資料。",
+    "expected_keywords": ["大學部學生", "無自行上傳", "畢業專題", "單位聯絡人代為上傳"],
+    "expected_provision_ids": [1354],
+    "document_name": "朝陽科技大學機構典藏作業要點",
+    "article_no": "五、"
+  },
+  {
+    "question_id": "Q080",
+    "question": "DVD 之類的多媒體資料要怎麼歸還？可以用自助還書嗎？",
+    "expected_answer": "多媒體資料歸還應於開放時間內至服務櫃檯辦理，不得使用自助還書設備或投入備用還書口，如資料因而損壞，應另負賠償之責。",
+    "expected_keywords": ["多媒體資料", "服務櫃檯", "不得使用自助還書", "備用還書口", "賠償"],
+    "expected_provision_ids": [1394],
+    "document_name": "朝陽科技大學波錠紀念圖書館圖書資料借閱規則",
+    "article_no": "第十條"
+  },
+  {
+    "question_id": "Q081",
+    "question": "圖書館討論室要怎麼預約？可以把預約讓給同學嗎？",
+    "expected_answer": "借用討論室及其相關器材設備，須於1週內以圖書館空間/座位預約管理系統預約登記，並按登記時間內持教職員證、學生證，親至預約空間簽到使用，若逾預約登記時間，得取消其使用資格。申請者不得自行交換、或轉讓。",
+    "expected_keywords": ["討論室", "1週內", "預約管理系統", "簽到", "不得自行交換、或轉讓"],
+    "expected_provision_ids": [1426],
+    "document_name": "朝陽科技大學波錠紀念圖書館討論室及其設備使用辦法",
+    "article_no": "第三條"
+  },
+  {
+    "question_id": "Q082",
+    "question": "學校的電子期刊可以大量下載或分享給朋友嗎？",
+    "expected_answer": "使用者不得進行下列行為：\n一、 有系統或大量的下載、列印資料。\n二、 同一份資料列印多次。\n三、 以電子傳遞方式流通文件資料。",
+    "expected_keywords": ["大量的下載", "列印資料", "同一份資料列印多次", "電子傳遞"],
+    "expected_provision_ids": [1435],
+    "document_name": "朝陽科技大學波錠紀念圖書館館藏網際網路電子資源使用規則",
+    "article_no": "第四條"
+  },
+  {
+    "question_id": "Q083",
+    "question": "暫時離開圖書館座位時，座位可以保留多久？",
+    "expected_answer": "嚴禁用書本、雜物佔用座位，若需暫時離開，以15分鐘為限。超過時間，視同佔用座位，他人有權將佔用之書本或雜物移走，佔用座位者不得有異議。",
+    "expected_keywords": ["暫時離開", "15分鐘", "佔用座位", "移走"],
+    "expected_provision_ids": [1442],
+    "document_name": "朝陽科技大學波錠紀念圖書館閱覽室使用辦法",
+    "article_no": "第四條"
+  },
+  {
+    "question_id": "Q084",
+    "question": "申請密集書庫的書後，要在多久內去取書？",
+    "expected_answer": "逾5日而未取者，即將圖書上架，取消申請記錄。",
+    "expected_keywords": ["密集書庫", "逾5日", "未取", "取消申請記錄"],
+    "expected_provision_ids": [1462],
+    "document_name": "朝陽科技大學波錠紀念圖書館密集書庫圖書借閱實施細則",
+    "article_no": "第四條"
+  },
+  {
+    "question_id": "Q085",
+    "question": "圖書館鋼琴一次可以借多久？可以續借嗎？",
+    "expected_answer": "借用時間以每人每次1小時為限，如無人預約，得續借1次，惟不得申請固定時段使用。",
+    "expected_keywords": ["鋼琴", "每次1小時", "無人預約", "續借1次", "不得申請固定時段"],
+    "expected_provision_ids": [1465],
+    "document_name": "朝陽科技大學波錠紀念圖書館鋼琴借用辦法",
+    "article_no": "第二條"
+  },
+  {
+    "question_id": "Q086",
+    "question": "iShow 分享區要怎麼預約？如果臨時不能去要怎麼處理？",
+    "expected_answer": "借用本區須於使用日期前7日於本處場地借用系統中申請，經核可後始得借用之。本處保有視活動用途及本區使用情況進行審核之權利。因故未能如期使用，須主動取消預約，超過3次未取消預約者，停權半年。",
+    "expected_keywords": ["使用日期前7日", "場地借用系統", "取消預約", "超過3次", "停權半年"],
+    "expected_provision_ids": [1486],
+    "document_name": "朝陽科技大學波錠紀念圖書館iShow分享區使用規則",
+    "article_no": "第三條"
+  },
+  {
+    "question_id": "Q087",
+    "question": "學校網路管理人員可以查看使用者的網路資料嗎？什麼情況下可以？",
+    "expected_answer": "校網使用者應尊重網路隱私權，不得任意窺視使用者之個人資料或有其他侵犯隱私權之行為。但有下列情形之一者，得基於情事之必要，依職權查核，如需提供資料，應以密件方式處理：\n一、 為維護或檢查系統安全。\n二、 依合理之根據，懷疑有違反校規之情事時，為取得證據或調查不當行為。\n三、 為配合司法機關之調查。\n四、 其他依法令之行為。",
+    "expected_keywords": ["網路隱私權", "依職權查核", "系統安全", "違反校規", "司法機關"],
+    "expected_provision_ids": [1520],
+    "document_name": "朝陽科技大學網路安全管理作業規範",
+    "article_no": "第五條"
+  },
+  {
+    "question_id": "Q088",
+    "question": "我可以使用宿舍網路自己架設伺服器或網站嗎？",
+    "expected_answer": "為維護所有住宿生的網路使用權益與頻寬品質，禁止於宿舍網路上建立任何伺服器(Server)，私自架設地下網站者，將停止其使用權，住宿期間不得再申請。",
+    "expected_keywords": ["宿舍網路", "伺服器", "地下網站", "停止其使用權", "不得再申請"],
+    "expected_provision_ids": [1528],
+    "document_name": "朝陽科技大學學生宿舍網路管理辦法",
+    "article_no": "第五條"
+  },
+  {
+    "question_id": "Q089",
+    "question": "雲端主機租期到了，資料還能下載嗎？可以保留多久？",
+    "expected_answer": "本服務租用以月為單位，最短為3個月，於租用期間結束後2週內，使用者應自行將資料備份下載，屆期本處將刪除雲端主機上所有資料，使用者不得異議。",
+    "expected_keywords": ["雲端主機", "租用期間結束", "2週內", "備份下載", "刪除"],
+    "expected_provision_ids": [1539],
+    "document_name": "朝陽科技大學雲端主機租用服務管理辦法",
+    "article_no": "第七條"
+  },
+  {
+    "question_id": "Q090",
+    "question": "內部稽核的報告和工作底稿要保存多久？",
+    "expected_answer": "稽核報告、追蹤報告、工作底稿及相關資料，應至少保存五年。",
+    "expected_keywords": ["稽核報告", "追蹤報告", "工作底稿", "至少保存五年"],
+    "expected_provision_ids": [1562],
+    "document_name": "朝陽科技大學內部稽核實施辦法",
+    "article_no": "第四條"
+  },
+  {
+    "question_id": "Q091",
+    "question": "申請校務資訊時資料不齊，可以補件嗎？補件期限多久？",
+    "expected_answer": "申請之方式或要件不備，其能補正者，應通知申請人於十五日內補正，不能補正或屆期不補正者，得逕行駁回之。",
+    "expected_keywords": ["方式或要件不備", "十五日內", "補正", "逕行駁回"],
+    "expected_provision_ids": [1571],
+    "document_name": "朝陽科技大學校務資訊公開辦法",
+    "article_no": "第七條"
+  },
+  {
+    "question_id": "Q092",
+    "question": "捐款給學校時，可以指定學校提供特定回饋嗎？",
+    "expected_answer": "本校收受之捐贈，應與校務有關，並不得與贈與人有不當利益之聯結。",
+    "expected_keywords": ["收受之捐贈", "校務有關", "不得", "不當利益"],
+    "expected_provision_ids": [1607],
+    "document_name": "朝陽科技大學捐贈收入管理辦法",
+    "article_no": "第三條"
+  },
+  {
+    "question_id": "Q093",
+    "question": "學校可以因為學生的性別或性傾向，在選課、成績或服務上有不同待遇嗎？",
+    "expected_answer": "本校不得因教職員工生之性別或性傾向而給予學習、教學、活動、評量、獎懲、福利及服務上之差別待遇。但性質僅適合特定性別者，不在此限。",
+    "expected_keywords": ["性別或性傾向", "不得", "差別待遇", "特定性別"],
+    "expected_provision_ids": [1632],
+    "document_name": "朝陽科技大學性別平等教育實施要點",
+    "article_no": "四、"
+  },
+  {
+    "question_id": "Q094",
+    "question": "向性平會提出校園性別事件檢舉後，多久會收到是否受理的通知？",
+    "expected_answer": "性平會應於接獲申請調查或檢舉後20日內，以書面通知申請人、被害人或檢舉人是否受理。",
+    "expected_keywords": ["性平會", "申請調查或檢舉", "20日內", "書面通知", "是否受理"],
+    "expected_provision_ids": [1658],
+    "document_name": "朝陽科技大學校園性別事件防治規定",
+    "article_no": "第二十一條"
+  },
+  {
+    "question_id": "Q095",
+    "question": "校友活動拿到學校補助後，要怎麼辦理核銷？有期限嗎？",
+    "expected_answer": "申請單位應於活動結束後1個月內檢附支出憑證正本（實支實付）、活動成果報告書及參加校友活動簽到表辦理核銷。",
+    "expected_keywords": ["活動結束後1個月內", "支出憑證正本", "活動成果報告書", "簽到表", "核銷"],
+    "expected_provision_ids": [1688],
+    "document_name": "朝陽科技大學推動校友活動經費補助辦法",
+    "article_no": "第五條"
+  },
+  {
+    "question_id": "Q096",
+    "question": "校外實習的三方合約通常要寫哪些內容？",
+    "expected_answer": "本校學生校外實習應以學校名義與實習機構及學生簽訂三方實習合約書，載明實習工作時間（實習時數，或是否有加班限制）、實習內容、契約期限、實習工作項目、實習待遇（或獎助學金）、膳宿及保險、實習學生輔導內容及實習考核等項目為原則。",
+    "expected_keywords": ["三方實習合約書", "實習工作時間", "實習待遇", "膳宿及保險", "實習考核"],
+    "expected_provision_ids": [1694],
+    "document_name": "朝陽科技大學學生校外實習辦法",
+    "article_no": "第五條"
+  },
+  {
+    "question_id": "Q097",
+    "question": "如果學校不受理性騷擾申訴，多久會通知當事人？",
+    "expected_answer": "本校不受理性騷擾申訴時，應於申訴或移送到達20日內以書面通知當事人；如係屬適用性騷擾防治法之案件，應同時副知臺中市政府。",
+    "expected_keywords": ["不受理性騷擾申訴", "20日內", "書面通知", "臺中市政府"],
+    "expected_provision_ids": [1774],
+    "document_name": "朝陽科技大學性騷擾防治措施、申訴及懲戒規定",
+    "article_no": "第八條"
+  },
+  {
+    "question_id": "Q098",
+    "question": "私校教職員通常幾歲辦理退休？",
+    "expected_answer": "教職員年滿六十五歲，私立學校應主動辦理其屆齡退休。",
+    "expected_keywords": ["教職員", "六十五歲", "私立學校", "屆齡退休"],
+    "expected_provision_ids": [1798],
+    "document_name": "學校法人及其所屬私立學校教職員退休撫卹離職資遣條例",
+    "article_no": "第16條"
+  },
+  {
+    "question_id": "Q099",
+    "question": "實驗室發生重大職災時，要怎麼通報？有時間限制嗎？",
+    "expected_answer": "實驗場所職業安全衛生管理員並應於1小時內報告該系（所）、中心主管、所屬學院院長、校安中心及環境安全衛生處，且環境安全衛生處應於下列事故發生8小時內，向勞動檢查機構報告。",
+    "expected_keywords": ["職業安全衛生管理員", "1小時內", "環境安全衛生處", "8小時內", "勞動檢查機構"],
+    "expected_provision_ids": [1834],
+    "document_name": "朝陽科技大學環境安全衛生管理辦法",
+    "article_no": "第十條"
+  },
+  {
+    "question_id": "Q100",
+    "question": "英文畢業門檻還沒通過，接下來要怎麼補救？",
+    "expected_answer": "本校學生若於三年級第2學期結束前未通過各系（含學位學程）選定指標時，須檢附未通過測驗之成績證明，於四年級修習「英語檢定輔導」課程（0學分，36小時），並於課程結束後參加本校英語能力檢定測驗，通過者始得畢業。",
+    "expected_keywords": ["三年級第2學期", "英語檢定輔導", "0學分", "36小時", "通過者始得畢業"],
+    "expected_provision_ids": [2189],
+    "document_name": "朝陽科技大學英語能力畢業指標實施辦法",
+    "article_no": "第六條"
+  }
+]

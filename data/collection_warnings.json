@@ -1,0 +1,107 @@
+[
+  {
+    "code": "inactive_detail_page",
+    "message": "索引仍列出此法規，但官方內容頁明確標示已廢止，未納入現行法規輸出。",
+    "source_url": "https://cyutis.cyut.edu.tw/TSSchoolwideLawDb/Law/LawAll?m_id=be4d1028-9af5-4f38-a5ab-6b7252cfe51c",
+    "document_name": "朝陽科技大學學習卓越課後輔導實施要點",
+    "raw_content": "112學年度第1學期第1次教務會議廢止"
+  },
+  {
+    "code": "inactive_detail_page",
+    "message": "索引仍列出此法規，但官方內容頁明確標示已廢止，未納入現行法規輸出。",
+    "source_url": "https://cyutis.cyut.edu.tw/TSSchoolwideLawDb/Law/LawAll?m_id=e2c8e1ae-75bb-49c3-9789-2552ee9cf9a0",
+    "document_name": "朝陽科技大學團體勞作教育實施要點",
+    "raw_content": "法規名稱已標示廢止：廢 朝陽科技大學團體勞作教育實施要點"
+  },
+  {
+    "code": "inactive_detail_page",
+    "message": "索引仍列出此法規，但官方內容頁明確標示已廢止，未納入現行法規輸出。",
+    "source_url": "https://cyutis.cyut.edu.tw/TSSchoolwideLawDb/Law/LawAll?m_id=ac6641f2-355f-4e8b-b2cc-9cf2b206f8e7",
+    "document_name": "朝陽科技大學基本勞作教育工作細則",
+    "raw_content": "法規名稱已標示廢止：廢 朝陽科技大學基本勞作教育工作細則"
+  },
+  {
+    "code": "inactive_detail_page",
+    "message": "索引仍列出此法規，但官方內容頁明確標示已廢止，未納入現行法規輸出。",
+    "source_url": "https://cyutis.cyut.edu.tw/TSSchoolwideLawDb/Law/LawAll?m_id=ac1bbe32-4d82-4aee-a8bb-d781ccd84ac7",
+    "document_name": "朝陽科技大學波錠紀念圖書館多媒體資料借閱規則",
+    "raw_content": "112學年度第2學期第4次行政會議廢止"
+  },
+  {
+    "code": "inactive_detail_page",
+    "message": "索引仍列出此法規，但官方內容頁明確標示已廢止，未納入現行法規輸出。",
+    "source_url": "https://cyutis.cyut.edu.tw/TSSchoolwideLawDb/Law/LawAll?m_id=e071adbf-08bf-4821-8a57-69d735ccd504",
+    "document_name": "朝陽科技大學波錠紀念圖書館還書口使用辦法",
+    "raw_content": "112學年第2學期第4次行政會議廢止生效"
+  },
+  {
+    "code": "inactive_detail_page",
+    "message": "索引仍列出此法規，但官方內容頁明確標示已廢止，未納入現行法規輸出。",
+    "source_url": "https://cyutis.cyut.edu.tw/TSSchoolwideLawDb/Law/LawAll?m_id=be9ad2ab-3950-40af-b393-0c567c794ad6",
+    "document_name": "朝陽科技大學外籍生通識華語課程抵免學分實施要點",
+    "raw_content": "112學年度第2學期第1次教務會議廢止"
+  },
+  {
+    "code": "duplicate_document",
+    "message": "同名且正文相同，保留官方索引中較前的一份。",
+    "source_url": "https://cyutis.cyut.edu.tw/TSSchoolwideLawDb/Law/LawAll?m_id=18f4686e-db56-4f7e-8311-8d7add00769e",
+    "document_name": "朝陽科技大學學則",
+    "raw_content": ""
+  },
+  {
+    "code": "removed_old_provision",
+    "message": "舊條文未出現在本次現行資料，未寫入新 JSON：('測試法規', '第1條', None, None)",
+    "source_url": "",
+    "document_name": "測試法規",
+    "raw_content": ""
+  },
+  {
+    "code": "removed_old_provision",
+    "message": "舊條文未出現在本次現行資料，未寫入新 JSON：('測試法規', '第2條', None, None)",
+    "source_url": "",
+    "document_name": "測試法規",
+    "raw_content": ""
+  },
+  {
+    "code": "removed_old_provision",
+    "message": "舊條文未出現在本次現行資料，未寫入新 JSON：('測試法規', '第3條', None, None)",
+    "source_url": "",
+    "document_name": "測試法規",
+    "raw_content": ""
+  },
+  {
+    "code": "removed_old_provision",
+    "message": "舊條文未出現在本次現行資料，未寫入新 JSON：('測試法規', '第4條', None, None)",
+    "source_url": "",
+    "document_name": "測試法規",
+    "raw_content": ""
+  },
+  {
+    "code": "removed_old_provision",
+    "message": "舊條文未出現在本次現行資料，未寫入新 JSON：('測試法規', '第5條', None, None)",
+    "source_url": "",
+    "document_name": "測試法規",
+    "raw_content": ""
+  },
+  {
+    "code": "removed_old_provision",
+    "message": "舊條文未出現在本次現行資料，未寫入新 JSON：('測試法規', '第6條', None, None)",
+    "source_url": "",
+    "document_name": "測試法規",
+    "raw_content": ""
+  },
+  {
+    "code": "removed_old_provision",
+    "message": "舊條文未出現在本次現行資料，未寫入新 JSON：('測試法規', '第7條', None, None)",
+    "source_url": "",
+    "document_name": "測試法規",
+    "raw_content": ""
+  },
+  {
+    "code": "removed_old_provision",
+    "message": "舊條文未出現在本次現行資料，未寫入新 JSON：('測試法規', '第8條', None, None)",
+    "source_url": "",
+    "document_name": "測試法規",
+    "raw_content": ""
+  }
+]

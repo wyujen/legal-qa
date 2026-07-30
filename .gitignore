@@ -1,0 +1,13 @@
+.env
+.venv/
+.uv-cache/
+.uv-python/
+.streamlit/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*.log
+data/qa_logs.jsonl
+data/backups/
+data/legal_embeddings.npy
+data/embedding_metadata.json

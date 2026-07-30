@@ -1,0 +1,173 @@
+services:
+  db:
+    image: pgvector/pgvector:0.8.5-pg17-bookworm
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: legal_qa
+      POSTGRES_USER: legal_qa
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-legal_qa_local}
+    ports:
+      - "127.0.0.1:5432:5432"
+    volumes:
+      - legal_qa_pgdata:/var/lib/postgresql/data
+    mem_limit: 768m
+    cpus: 2.0
+    shm_size: 128mb
+    command:
+      - postgres
+      - -c
+      - shared_buffers=64MB
+      - -c
+      - work_mem=2MB
+      - -c
+      - maintenance_work_mem=64MB
+      - -c
+      - max_connections=20
+      - -c
+      - jit=off
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U legal_qa -d legal_qa"]
+      interval: 5s
+      timeout: 5s
+      retries: 12
+
+  ollama:
+    image: ${OLLAMA_IMAGE:-ollama/ollama:0.32.5}
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:${OLLAMA_DOCKER_PORT:-11435}:11434"
+    volumes:
+      - ollama_models:/root/.ollama
+    environment:
+      OLLAMA_KEEP_ALIVE: ${OLLAMA_KEEP_ALIVE:-30m}
+      OLLAMA_MAX_LOADED_MODELS: ${OLLAMA_MAX_LOADED_MODELS:-2}
+      OLLAMA_NUM_PARALLEL: ${OLLAMA_NUM_PARALLEL:-1}
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    healthcheck:
+      test: ["CMD", "ollama", "list"]
+      interval: 10s
+      timeout: 5s
+      retries: 18
+      start_period: 30s
+
+  ollama-init:
+    image: ${OLLAMA_IMAGE:-ollama/ollama:0.32.5}
+    restart: "on-failure:3"
+    depends_on:
+      ollama:
+        condition: service_healthy
+    environment:
+      OLLAMA_HOST: http://ollama:11434
+      OLLAMA_CHAT_MODEL: ${OLLAMA_CHAT_MODEL:-gemma4:e2b-it-qat}
+      OLLAMA_EMBEDDING_MODEL: ${OLLAMA_EMBEDDING_MODEL:-embeddinggemma}
+      OLLAMA_CHAT_MODEL_ID: ${OLLAMA_CHAT_MODEL_ID:-07ea59a47401}
+      OLLAMA_EMBEDDING_MODEL_ID: ${OLLAMA_EMBEDDING_MODEL_ID:-85462619ee72}
+    volumes:
+      - ./scripts/bootstrap_ollama.sh:/bootstrap_ollama.sh:ro
+    entrypoint: ["/bin/sh", "/bootstrap_ollama.sh"]
+
+  warmup:
+    build:
+      context: .
+    image: legal-qa-app:local
+    restart: "on-failure:3"
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      OLLAMA_BASE_URL: http://ollama:11434
+      OLLAMA_CHAT_MODEL: ${OLLAMA_CHAT_MODEL:-gemma4:e2b-it-qat}
+      OLLAMA_EMBEDDING_MODEL: ${OLLAMA_EMBEDDING_MODEL:-embeddinggemma}
+      OLLAMA_KEEP_ALIVE: ${OLLAMA_KEEP_ALIVE:-30m}
+      REQUEST_TIMEOUT_SECONDS: ${REQUEST_TIMEOUT_SECONDS:-360}
+    depends_on:
+      ollama:
+        condition: service_healthy
+      ollama-init:
+        condition: service_completed_successfully
+    command:
+      - python
+      - scripts/warmup_models.py
+
+  bootstrap:
+    build:
+      context: .
+    image: legal-qa-app:local
+    restart: "on-failure:3"
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      DATABASE_URL: postgresql://legal_qa:${POSTGRES_PASSWORD:-legal_qa_local}@db:5432/legal_qa
+      OLLAMA_BASE_URL: http://ollama:11434
+      OLLAMA_CHAT_MODEL: ${OLLAMA_CHAT_MODEL:-gemma4:e2b-it-qat}
+      OLLAMA_EMBEDDING_MODEL: ${OLLAMA_EMBEDDING_MODEL:-embeddinggemma}
+      DATA_DIR: /app/data
+    volumes:
+      - ./data:/app/data
+    depends_on:
+      db:
+        condition: service_healthy
+      ollama-init:
+        condition: service_completed_successfully
+      warmup:
+        condition: service_completed_successfully
+    command:
+      - python
+      - scripts/sync_database.py
+      - --full-snapshot
+
+  app:
+    build:
+      context: .
+    image: legal-qa-app:local
+    restart: unless-stopped
+    init: true
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      DATABASE_URL: postgresql://legal_qa:${POSTGRES_PASSWORD:-legal_qa_local}@db:5432/legal_qa
+      OLLAMA_BASE_URL: http://ollama:11434
+      OLLAMA_CHAT_MODEL: ${OLLAMA_CHAT_MODEL:-gemma4:e2b-it-qat}
+      OLLAMA_EMBEDDING_MODEL: ${OLLAMA_EMBEDDING_MODEL:-embeddinggemma}
+      DATA_DIR: /app/data
+    ports:
+      - "127.0.0.1:${APP_PORT:-8501}:8501"
+    volumes:
+      - ./data:/app/data
+    depends_on:
+      db:
+        condition: service_healthy
+      ollama:
+        condition: service_healthy
+      ollama-init:
+        condition: service_completed_successfully
+      warmup:
+        condition: service_completed_successfully
+      bootstrap:
+        condition: service_completed_successfully
+    healthcheck:
+      test:
+        - CMD
+        - python
+        - -c
+        - >-
+          import urllib.request;
+          urllib.request.urlopen(
+          'http://127.0.0.1:8501/_stcore/health',
+          timeout=3).read()
+      interval: 10s
+      timeout: 5s
+      retries: 12
+      start_period: 30s
+
+volumes:
+  legal_qa_pgdata:
+  ollama_models:
