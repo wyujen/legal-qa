@@ -4,13 +4,12 @@ from __future__ import annotations
 
 from functools import lru_cache
 from pathlib import Path
-from typing import Literal
-
 from pydantic import Field, model_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
 BASE_DIR = Path(__file__).resolve().parent
+EMBEDDING_DIMENSION = 768
 
 
 class Settings(BaseSettings):
@@ -31,8 +30,6 @@ class Settings(BaseSettings):
         "postgresql://legal_qa:legal_qa_local@127.0.0.1:5432/legal_qa"
     )
     database_connect_timeout_seconds: int = Field(default=5, ge=1, le=60)
-    embedding_dimension: Literal[768] = 768
-
     retrieval_top_k: int = Field(default=6, ge=1, le=20)
     retrieval_candidate_k: int = Field(default=50, ge=1, le=1000)
     retrieval_min_score: float = Field(default=0.12, ge=-1.0, le=1.0)

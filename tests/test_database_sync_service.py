@@ -20,7 +20,6 @@ from services.database_sync_service import (
 def make_settings(**overrides: object) -> SimpleNamespace:
     values: dict[str, object] = {
         "ollama_embedding_model": "embeddinggemma",
-        "embedding_dimension": 3,
     }
     values.update(overrides)
     return SimpleNamespace(**values)
@@ -104,6 +103,8 @@ class FakeEmbeddingService:
 
 
 class RecordingSyncService(DatabaseSyncService):
+    embedding_dimension = 3
+
     def __init__(
         self,
         *,

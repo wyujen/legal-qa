@@ -286,7 +286,6 @@ JSON，也不會因稍後的資料庫更新而顯示另一版本內容。
 | `DATABASE_URL` | `postgresql://legal_qa:legal_qa_local@127.0.0.1:5432/legal_qa` | PostgreSQL DSN |
 | `POSTGRES_PASSWORD` | `legal_qa_local` | Compose 本機資料庫密碼 |
 | `DATABASE_CONNECT_TIMEOUT_SECONDS` | `5` | DB 連線逾時 |
-| `EMBEDDING_DIMENSION` | `768` | 固定配合 embeddinggemma 與 schema |
 | `OLLAMA_BASE_URL` | `http://localhost:11434` | Ollama 服務 |
 | `OLLAMA_CHAT_MODEL` | `gemma4:e2b-it-qat` | Gemma 4 回答模型 |
 | `OLLAMA_EMBEDDING_MODEL` | `embeddinggemma` | 文件與問題 Embedding |
@@ -311,8 +310,9 @@ JSON，也不會因稍後的資料庫更新而顯示另一版本內容。
 | `LOG_FULL_PROMPT` | `false` | 是否保存完整問題與參考條文 |
 | `MAX_LIST_ITEMS` | `6` | 回答列表及引用上限 |
 
-`EMBEDDING_DIMENSION` 在本版必須是 768。`RETRIEVAL_CANDIDATE_K` 不得
-小於 `RETRIEVAL_TOP_K`，向量與關鍵字權重不可同時為 0。
+向量維度在程式與 schema 內固定為 768，以配合 embeddinggemma，不是
+`.env` 參數。`RETRIEVAL_CANDIDATE_K` 不得小於 `RETRIEVAL_TOP_K`，
+向量與關鍵字權重不可同時為 0。
 
 目前 RTX 4060 Ti 8 GB 可同時保留 Embedding 與回答模型，因此預設
 `OLLAMA_MAX_LOADED_MODELS=2`；仍限制 `OLLAMA_NUM_PARALLEL=1`，且模型

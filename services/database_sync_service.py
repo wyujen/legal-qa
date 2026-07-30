@@ -15,6 +15,7 @@ from uuid import UUID, uuid4
 
 import numpy as np
 
+from config import EMBEDDING_DIMENSION
 from models.legal_provision import LegalProvision
 from services.database_service import PostgresDatabase
 from services.retrieval_service import compact_keyword_text
@@ -189,6 +190,8 @@ def _is_allowed_first_paragraph_migration(
 class DatabaseSyncService:
     """Synchronize a complete or incremental collector snapshot."""
 
+    embedding_dimension = EMBEDDING_DIMENSION
+
     def __init__(
         self,
         settings: Any,
@@ -204,7 +207,6 @@ class DatabaseSyncService:
             embedding_service = EmbeddingService(settings)
         self.embedding_service = embedding_service
         self.embedding_model = str(settings.ollama_embedding_model)
-        self.embedding_dimension = int(settings.embedding_dimension)
 
     def sync(
         self,

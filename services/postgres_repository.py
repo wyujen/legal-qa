@@ -8,6 +8,7 @@ from typing import Any
 
 import numpy as np
 
+from config import EMBEDDING_DIMENSION
 from models.legal_provision import LegalProvision
 from models.retrieval_candidate import RetrievalCandidate
 from services.database_service import PostgresDatabase
@@ -19,6 +20,8 @@ logger = logging.getLogger(__name__)
 class PostgresProvisionRepository:
     """Retrieve only the nearest active provisions from PostgreSQL."""
 
+    embedding_dimension = EMBEDDING_DIMENSION
+
     def __init__(
         self,
         settings: Any,
@@ -27,7 +30,6 @@ class PostgresProvisionRepository:
     ) -> None:
         self.settings = settings
         self.database = database or PostgresDatabase(settings)
-        self.embedding_dimension = int(settings.embedding_dimension)
 
     def search_candidates(
         self,
